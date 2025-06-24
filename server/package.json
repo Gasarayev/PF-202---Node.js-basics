@@ -4,7 +4,7 @@
   "description": "this is our first node js server",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
