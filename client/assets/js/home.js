@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function getFamousPerson() {
     try {
-      const BASE_URL = "https://680b848cd5075a76d98b6ac6.mockapi.io/actors";
+      const BASE_URL = "http://localhost:3000/people";
       const response = await axios.get(BASE_URL);
-      famous = response.data;
+      famous = response.data.data;
 
       
       renderCards(famous);
